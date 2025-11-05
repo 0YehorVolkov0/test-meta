@@ -15,6 +15,10 @@ export default function HomePage() {
       rel="noopener noreferrer" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://test-meta-liart.vercel.app/")}`} >
       Share Facebook
       </Link>
+      <Link target="_blank"
+      rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("https://test-meta-liart.vercel.app/")}`} >
+      Share Twitter
+      </Link>
     </div>
   );
 }
