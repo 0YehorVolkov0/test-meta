@@ -20,12 +20,11 @@ export default function HomePage() {
 }
 
 
-export async function generateMetadata(): Promise<Metadata> {
-
-  return {
+export const metadata: Metadata = {
+    title: "TEST",
+    description: "SUPERTEST",
+    icons: [{ rel: "icon", url: "/favicon.ico" }],
     openGraph: {
-      title: "LOLOLOLOLOLO",
-      description: "oqiwjdoiqjwodijoqwijedoij",
+      images: [{url: "/test.png"}]
     }
-  }
-}
+  };
