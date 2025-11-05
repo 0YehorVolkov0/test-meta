@@ -23,12 +23,13 @@ export default function HomePage() {
   );
 }
 
+export async function generateMetadata(): Promise<Metadata> {
 
-export const metadata: Metadata = {
-    title: "TEST",
-    description: "SUPERTEST",
-    icons: [{ rel: "icon", url: "/favicon.ico" }],
+  return {
+    title: "TESTETSTESTETS",
+    description: "esttstetsetstet2tet2tttste",
     openGraph: {
-      images: [{url: "/test.png"}]
+      images: [{url: '/test.png'}]
     }
-  };
+  }
+}
