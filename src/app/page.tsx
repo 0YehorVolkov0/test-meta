@@ -1,37 +1,31 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
-        <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-          Create <span className="text-[hsl(280,100%,70%)]">T3</span> App
-        </h1>
-        <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/usage/first-steps"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">First Steps →</h3>
-            <div className="text-lg">
-              Just the basics - Everything you need to know to set up your
-              database and authentication.
-            </div>
-          </Link>
-          <Link
-            className="flex max-w-xs flex-col gap-4 rounded-xl bg-white/10 p-4 text-white hover:bg-white/20"
-            href="https://create.t3.gg/en/introduction"
-            target="_blank"
-          >
-            <h3 className="text-2xl font-bold">Documentation →</h3>
-            <div className="text-lg">
-              Learn more about Create T3 App, the libraries it uses, and how to
-              deploy it.
-            </div>
-          </Link>
-        </div>
-      </div>
-    </main>
+    <div className="flex flex-col">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore et hic architecto ratione incidunt! Quos magni quibusdam sunt. Delectus architecto nesciunt molestias sint accusamus autem nihil omnis aliquam nobis dolore?
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit rem culpa velit error nemo distinctio ut? Fugit, sequi nihil. Praesentium iusto in a provident facilis dolor pariatur similique delectus perspiciatis!
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis earum iste, quam quas est atque. Architecto, incidunt dignissimos ullam omnis rem natus nulla eaque modi ab sequi accusamus. Voluptatibus, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quam ab veritatis aspernatur possimus nisi totam, voluptate, laboriosam expedita deleniti rem! Maxime enim cumque nulla tempore et at, repellat iste?Lorem ipsum dolor sit amet consectetur adipisicing elit. Error inventore harum sapiente architecto dolor quibusdam. Laboriosam pariatur, quia numquam incidunt molestiae explicabo velit? Alias voluptatem rem sed perspiciatis iusto officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione accusantium quo eligendi delectus, illum qui cumque animi eaque rem provident corrupti optio aperiam facere, quidem consectetur, nostrum numquam suscipit?
+
+
+    <img src="/test.png" alt="test" className="w-84 h-40"/>
+
+      <Link target="_blank"
+      rel="noopener noreferrer" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://test-meta-liart.vercel.app/")}`} >
+      Share Facebook
+      </Link>
+    </div>
   );
+}
+
+
+export async function generateMetadata(): Promise<Metadata> {
+
+  return {
+    openGraph: {
+      title: "LOLOLOLOLOLO",
+      description: "oqiwjdoiqjwodijoqwijedoij",
+    }
+  }
 }
