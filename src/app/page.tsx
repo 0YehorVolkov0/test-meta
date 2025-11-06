@@ -30,6 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "esttstetsetstet2tet2tttste",
     openGraph: {
       images: [{url: '/test.png'}],
+      url: "/"
     }
   }
 }
