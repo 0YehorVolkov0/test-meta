@@ -26,10 +26,11 @@ export default function HomePage() {
 export async function generateMetadata(): Promise<Metadata> {
 
   return {
-    title: "TESTETSTESTETS",
-    description: "esttstetsetstet2tet2tttste",
+    title: "TEST2222",
+    description: "lololololololololololololo",
     openGraph: {
-      images: [{url: '/test.png'}],
+      images: [{url: '/test2.png'}],
+      url: "/",
     }
   }
 }
