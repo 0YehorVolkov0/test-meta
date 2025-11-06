@@ -7,7 +7,7 @@ export default function HomePage() {
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore et hic architecto ratione incidunt! Quos magni quibusdam sunt. Delectus architecto nesciunt molestias sint accusamus autem nihil omnis aliquam nobis dolore?
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit rem culpa velit error nemo distinctio ut? Fugit, sequi nihil. Praesentium iusto in a provident facilis dolor pariatur similique delectus perspiciatis!
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis earum iste, quam quas est atque. Architecto, incidunt dignissimos ullam omnis rem natus nulla eaque modi ab sequi accusamus. Voluptatibus, quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt quam ab veritatis aspernatur possimus nisi totam, voluptate, laboriosam expedita deleniti rem! Maxime enim cumque nulla tempore et at, repellat iste?Lorem ipsum dolor sit amet consectetur adipisicing elit. Error inventore harum sapiente architecto dolor quibusdam. Laboriosam pariatur, quia numquam incidunt molestiae explicabo velit? Alias voluptatem rem sed perspiciatis iusto officiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ratione accusantium quo eligendi delectus, illum qui cumque animi eaque rem provident corrupti optio aperiam facere, quidem consectetur, nostrum numquam suscipit?
-        1111111111111111
+        11111111111111112222222
 
     <img src="/test.png" alt="test" className="w-84 h-40"/>
 
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "lololololololololololololo",
     openGraph: {
       images: [{url: '/test2.png'}],
-      url: "/help"
+      url: "https://test-meta-liart.vercel.app/help"
     }
   }
 }
