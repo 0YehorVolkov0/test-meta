@@ -12,11 +12,11 @@ export default function HomePage() {
     <img src="/test2.png" alt="test" className="w-84 h-40"/>
 
       <Link target="_blank"
-      rel="noopener noreferrer" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://test-meta-liart.vercel.app/")}`} >
+      rel="noopener noreferrer" href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent("https://test-meta-liart.vercel.app/help")}`} >
       Share Facebook
       </Link>
       <Link target="_blank"
-      rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("https://test-meta-liart.vercel.app/")}`} >
+      rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("https://test-meta-liart.vercel.app/help")}`} >
       Share Twitter
       </Link>
     </div>
