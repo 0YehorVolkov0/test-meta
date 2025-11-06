@@ -31,6 +31,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       images: [{url: '/test2.png'}],
       url: "https://test-meta-liart.vercel.app/"
-    }
+    },
+    metadataBase: new URL ("https://test-meta-liart.vercel.app/")
   }
 }
