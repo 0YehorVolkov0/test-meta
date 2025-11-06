@@ -30,7 +30,8 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "lololololololololololololo",
     openGraph: {
       images: [{url: '/test2.png'}],
-      type: "website"
+      type: "website",
+      url: "/"
     }
   }
 }
