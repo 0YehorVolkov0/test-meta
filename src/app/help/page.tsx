@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "lololololololololololololo",
     openGraph: {
       images: [{url: '/test2.png'}],
-    //   type: "website",
+      url: "https://test-meta-liart.vercel.app/"
     }
   }
 }
