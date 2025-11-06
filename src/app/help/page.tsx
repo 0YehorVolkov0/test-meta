@@ -16,7 +16,7 @@ export default function HomePage() {
       Share Facebook
       </Link>
       <Link target="_blank"
-      rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("https://test-meta-liart.vercel.app/help")}`} >
+      rel="noopener noreferrer" href={`https://twitter.com/intent/tweet?url=${encodeURIComponent("https://test-meta-liart.vercel.app/hel")}`} >
       Share Twitter
       </Link>
     </div>
@@ -30,7 +30,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description: "lololololololololololololo",
     openGraph: {
       images: [{url: '/test2.png'}],
-    //   url: "https://test-meta-liart.vercel.app/"
+      url: "https://test-meta-liart.vercel.app/"
     }
   }
 }
